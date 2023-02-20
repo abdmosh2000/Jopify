@@ -99,7 +99,72 @@ text-decoration: none;
 }
 .mainword{
   padding-left:30px ;
-  padding-bottom: 20px;
-  font-family: cursive;
+  padding-top: 40px;
+  font-family: Poppins;
   font-weight: bold;
+}
+.container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+.left-side {
+  width: 30%;
+  background-color: #fbfbfb;
+  margin-left: 40px;
+  
+}
+.right-side {
+  width: 50%;
+  background-color: #fbfbfb;
+  margin-left: 80px;
+}
+.profile-logo{
+  padding: 20px;
+  width: 80px;
+  height: auto;
+}
+
+.separator {
+  width: 4px;
+  background-color: rgb(95, 95, 146);
+}
+.change{
+  width:300px;
+  height: 40px;
+  border: none;
+  background-color: #DFE7FC;
+  color: #455AF7;
+  border-radius: 5px;
+}
+.right-side h7{
+  font-size: 18px;
+  font-weight: bold;
+  
+}
+.right-side h6{
+  font-size: 11px;
+  font-weight: 100;
+}
+.address p{
+  font-size: 12px;
+  font-weight: 100;
+}
+.address a{
+  text-decoration: none;
+}
+.address a:hover{
+  cursor: pointer;
+  color: black;
+}
+.delete{
+  width:300px;
+  height: 40px;
+  border: none;
+  background-color: #FF2323;
+  color: white;
+  border-radius: 5px;
+}
+.left-side h4{
+  font-size: 18px;
 }
