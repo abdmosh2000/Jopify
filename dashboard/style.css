@@ -52,6 +52,7 @@ body {
     border-radius: 5px;
     
   }
+
   .mainnav{
     background-color: #F4F7FE;
   }
@@ -63,6 +64,8 @@ body {
     height: auto;
     z-index: 111111111;
     padding-bottom: 120px;
+    color: white;
+    background: transparent;
     
   }
   #navbar{
@@ -167,4 +170,24 @@ text-decoration: none;
 }
 .left-side h4{
   font-size: 18px;
+}
+.sidebar .nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar .nav .nav-link {
+  display: flex;
+  align-items: center;
+}
+.ripple.active{
+  background: #F4F7FE;
+  color: black;
+}
+.list-group-item span{
+  text-align: center;
+  padding-left:15px ;
+}
+.navitem{
+  text-align: center;
 }
