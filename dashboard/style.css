@@ -105,6 +105,7 @@ text-decoration: none;
   padding-top: 40px;
   font-family: Poppins;
   font-weight: bold;
+  margin-left: 20px;
 }
 .container {
   display: flex;
@@ -190,4 +191,70 @@ text-decoration: none;
 }
 .navitem{
   text-align: center;
+}
+
+
+#myInput {
+  background-image: url('/img/searchicon.png');
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  width: 30%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border:none;
+  border-radius: 15px;
+  margin-bottom: 12px; 
+  margin-left: 50px;
+
+}
+
+#myTable {
+  border-collapse: collapse;
+
+  border: 1px solid #ddd;
+  font-size: 18px;
+}
+
+#myTable th, #myTable td {
+  text-align: left;
+  padding: 12px;
+}
+
+#myTable tr {
+
+  border-bottom: 1px solid #ddd;
+}
+
+#myTable tr.header, #myTable tr:hover {
+  
+  background-color: #f1f1f1;
+}
+.tableicon{
+  padding: 10px;
+}
+
+.tablesection{
+  
+  border-radius: 15px;
+  width: 900px;
+  padding: 45px;
+  margin: 45px;
+}
+.sec{
+  width: 100%;
+}
+th, td {
+  padding: 15px;
+  text-align: centr;
+}
+.tablehead{
+  background-color: #BBCAFF;
+  border-radius: 15px;
+  border: 1px solid #ddd;
+}
+.tablebody{
+  background-color: #fff;
+}
+.btn{
+  text-decoration: none;
 }

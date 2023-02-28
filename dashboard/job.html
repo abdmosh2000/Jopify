@@ -77,17 +77,19 @@
     <!--Main layout-->
     <main style="margin-top: 58px">
         <h3 class="mainword">Jobs</h3>
-        <table class="table align-middle mb-0 bg-white">
-            <thead class="bg-light">
+        <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names..">
+        <table class="table align-middle mb-0 bg-white" id="myTable">
+            <thead class="bg-light tablehead">
               <tr>
-                <th>Name</th>
+                <th>Job Image</th>
+                <th>Job Code</th>
                 <th>Title</th>
+                <th>JOb Salary</th>
+                <th>Type</th>
                 <th>Status</th>
-                <th>Position</th>
-                <th>Actions</th>
               </tr>
             </thead>
-            <tbody>
+            <tbody class="tablebody">
               <tr>
                 <td>
                   <div class="d-flex align-items-center">
@@ -108,13 +110,16 @@
                   <p class="text-muted mb-0">IT department</p>
                 </td>
                 <td>
-                  <span class="badge badge-success rounded-pill d-inline">Active</span>
+                 11
                 </td>
                 <td>Senior</td>
                 <td>
                   <button type="button" class="btn btn-link btn-sm btn-rounded">
                     Edit
                   </button>
+                </td>
+                <td>
+                  <span class="badge rounded-pill bg-success">. Paid .</span>
                 </td>
               </tr>
               <tr>
@@ -137,9 +142,7 @@
                   <p class="text-muted mb-0">Finance</p>
                 </td>
                 <td>
-                  <span class="badge badge-primary rounded-pill d-inline"
-                        >Onboarding</span
-                    >
+                 222
                 </td>
                 <td>Junior</td>
                 <td>
@@ -150,6 +153,10 @@
                           >
                     Edit
                   </button>
+                </td>
+                <td>
+                  <span class="badge rounded-pill bg-warning text-dark">Awating</span>
+                
                 </td>
               </tr>
               <tr>
@@ -172,7 +179,7 @@
                   <p class="text-muted mb-0">UI/UX</p>
                 </td>
                 <td>
-                  <span class="badge badge-warning rounded-pill d-inline">Awaiting</span>
+                333
                 </td>
                 <td>Senior</td>
                 <td>
@@ -184,11 +191,15 @@
                     Edit
                   </button>
                 </td>
+                <td>
+                  <span class="badge rounded-pill bg-danger">Canceled</span>
+                </td>
               </tr>
             </tbody>
           </table>
     </main>
     <!--Main layout-->
+    <script src="/index.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossorigin="anonymous"></script>
