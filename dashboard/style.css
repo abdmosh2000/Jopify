@@ -102,10 +102,11 @@ text-decoration: none;
 }
 .mainword{
   padding-left:30px ;
-  padding-top: 40px;
+  padding-top: -50px;
   font-family: Poppins;
   font-weight: bold;
   margin-left: 20px;
+  margin-bottom: 50px;
 }
 .container {
   display: flex;
@@ -257,4 +258,8 @@ th, td {
 }
 .btn{
   text-decoration: none;
+}
+.sitting{
+  width: 350px;
+  padding-left: 50px;
 }
